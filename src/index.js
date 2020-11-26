@@ -8,8 +8,12 @@ const app = express();
 // Middlewares
 app.use(express.json());
 
+app.get('/', (req, res) => { 
+      res.json("Holas"); 
+  
+});
 // Routes
-app.use(require('./routes/employees'));
+// app.use(require('./routes/employees'));
 
 // Starting the server
 app.listen(app.get('port'), () => {
