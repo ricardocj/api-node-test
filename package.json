@@ -10,11 +10,11 @@
   "author": "ss",
   "license": "ISC",
   "dependencies": {
-    "bar": "git://github.com/foo/bar.git",
     "css-loader": "^5.0.1",
     "express": "git+https://github.com/visionmedia/express.git",
     "gulp-rev-all": "https://github.com/Amitesh/gulp-rev-all/tarball/master",
     "html-webpack-plugin": "^4.5.0",
+    "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "npm_git_install": "git+https://github.com/futurechallenger/npm_git_install.git",
     "style-loader": "^2.0.0",
