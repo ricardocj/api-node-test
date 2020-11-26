@@ -1,0 +1,30 @@
+{
+  "name": "sss",
+  "version": "1.0.0",
+  "description": "ssss",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "ss",
+  "license": "ISC",
+  "dependencies": {
+    "bar": "git://github.com/foo/bar.git",
+    "express": "git+https://github.com/visionmedia/express.git",
+    "gulp-rev-all": "https://github.com/Amitesh/gulp-rev-all/tarball/master",
+    "mysql": "^2.18.1",
+    "npm_git_install": "git+https://github.com/futurechallenger/npm_git_install.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superuser/repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/superuser/repo/issues"
+  },
+  "homepage": "https://github.com/superuser/repo#readme"
+}
