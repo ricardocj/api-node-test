@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   
 });
 // Routes
-// app.use(require('./routes/employees'));
+ app.use(require('./routes/employees'));
 
 // Starting the server
 app.listen(app.get('port'), () => {
